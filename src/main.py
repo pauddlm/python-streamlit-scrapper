@@ -1,8 +1,8 @@
 from utils.auth_utils import authenticator
 from utils.driver_utils import driver_init
-from src.autenticate import login
-from src.extract_info import extract_table_data
-from src.navigator import navigate_to_tests
+from src.backend.autenticate import login
+from src.backend.extract_info import extract_table_data
+from src.backend.navigator import navigate_to_tests
 from src.frontend.app import show_dashboard
 import pandas as pd
 import os
